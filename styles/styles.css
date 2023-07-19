@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(81, 157, 182);
+}
+
+.box-1{
+    margin: 70px;
+}
+
+.box-2{
+    padding: 30px;
+    background-color: white;
+    width: 33.3%;
+    float: left;
+    border-radius: 3px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+.box-2:hover{
+    background-color: rgb(211, 211, 211);
+}
+
+.headings{
+    color: rgb(82, 82, 206);
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+}
+
+.paragraph{
+    color:rgba(0, 0, 0, 0.493);
+    font-family: sans-serif;
+}
+
+.footer{
+    color: rgb(82, 82, 206);
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#least{
+    font-size: 15px;
+}
