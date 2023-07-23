@@ -1,23 +1,60 @@
 body{
-    background-color: rgb(81, 157, 182);
+    background-color: #799bce;
 }
 
 .box-1{
-    margin: 70px;
-}
-
-.box-2{
-    padding: 30px;
-    background-color: white;
-    width: 33.3%;
-    float: left;
-    border-radius: 3px;
-    box-sizing: border-box;
-    text-align: center;
+     display: block;
+     margin-left: 200px ;
+     width: 70%;
+     border-radius: 5px;
+     box-sizing: border-box;
+     display: flex;
     
 }
 
-.box-2:hover{
+.box-left{
+    float: left;
+    width: 50%;
+    height: 280px;
+    background: white;
+    text-align: center;
+    position: relative;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-top: 15px;
+}
+
+.box-middle{
+    float: left;
+    width: 50%;
+    height: 280px;
+    background: white;
+    text-align: center;
+    position: relative;
+    padding-top: 15px;
+}
+
+.box-right{
+    float: left;
+    width: 50%;
+    height: 280px;
+    background: white;
+    text-align: center;
+    position: relative;
+    padding-top: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.box-right:hover{
+    background-color: rgb(211, 211, 211);
+}
+
+.box-middle:hover{
+    background-color: rgb(211, 211, 211);
+}
+
+.box-left:hover{
     background-color: rgb(211, 211, 211);
 }
 
@@ -29,17 +66,21 @@ body{
 }
 
 .paragraph{
-    color:rgba(0, 0, 0, 0.493);
+    color:lightslategrey;
     font-family: sans-serif;
 }
 
 .footer{
     color: rgb(82, 82, 206);
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
 }
 
 #least{
     font-size: 15px;
+}
+
+#dollar{
+    font-size: 10px;
 }
