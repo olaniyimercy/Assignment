@@ -1,61 +1,31 @@
 body{
     background-color: #799bce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
 }
 
-.box-1{
-     display: block;
-     margin-left: 200px ;
-     width: 70%;
-     border-radius: 5px;
-     box-sizing: border-box;
+.container{
+     background-color: white;
+     width: 50%;
+     height: 50%;
+     align-items: center;
      display: flex;
-    
+     justify-content: center;
+     text-align:center;
+     border-radius: 5px;
+     margin: 10px 5px;
+     padding: 5px 10px;
 }
 
-.box-left{
-    float: left;
-    width: 50%;
-    height: 280px;
-    background: white;
-    text-align: center;
-    position: relative;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    padding-top: 15px;
-}
 
-.box-middle{
-    float: left;
-    width: 50%;
-    height: 280px;
-    background: white;
-    text-align: center;
-    position: relative;
-    padding-top: 15px;
-}
-
-.box-right{
-    float: left;
-    width: 50%;
-    height: 280px;
-    background: white;
-    text-align: center;
-    position: relative;
-    padding-top: 15px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-.box-right:hover{
+.main:hover{
     background-color: rgb(211, 211, 211);
-}
-
-.box-middle:hover{
-    background-color: rgb(211, 211, 211);
-}
-
-.box-left:hover{
-    background-color: rgb(211, 211, 211);
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .headings{
@@ -68,6 +38,7 @@ body{
 .paragraph{
     color:lightslategrey;
     font-family: sans-serif;
+    margin: 5px;
 }
 
 .footer{
